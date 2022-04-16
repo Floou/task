@@ -1,7 +1,7 @@
 def exam(a, b):
-    res = a - b
-    sil = a / b
-    return res, sil
+    subtraction = a - b
+    division = a / b
+    return subtraction, division
 
 
-print(exam(4, 7))
+print(exam(6, 4))
